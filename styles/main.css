@@ -1,0 +1,47 @@
+.outside-container{
+	margin-top: 50px;
+	margin-left: px;
+}
+
+.inside-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+	align-items: center;
+}
+.img{
+	width: 100%;
+}
+
+.box-container{	
+   margin-bottom: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.down{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.downtop{
+   margin-left: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+.channel{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.profileimg{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+
